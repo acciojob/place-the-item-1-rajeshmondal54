@@ -1,2 +1,48 @@
 
 /* Your CSS Code here. */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+  }
+  
+  .holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item {
+    flex: 0 0 30%;
+    background-color: #2ecc71;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .item:nth-child(1) {
+    background-color: red;
+  }
+  
+  .item:nth-child(2) {
+    background-color: blue;
+  }
+  
+  .item:nth-child(3) {
+    background-color: green;
+  }
